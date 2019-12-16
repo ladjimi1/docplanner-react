@@ -1,38 +1,334 @@
-.App {
-  text-align: center;
+.logo{
+  width: 20%;
+  
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar{
   display: flex;
-  flex-direction: column;
+  
+  justify-content: space-around;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
   align-items: center;
+  font-size:large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#ABABAB;
+  list-style: none;
+ 
+  
+}
+.active{
+  color:#00CCB1!important;
+}
+.nav a {
+
+  text-decoration: none;
+  color: grey;
+  padding-right: 10px;
+
+}
+.Nav-about{
+  color: #00C3A5;
+}
+.lgo{
+  width: 50px;
+  align-self: center;
+  margin-left: 48%;
+  margin-top: 90px;}
+.text{
+  color: #00C3A5;
+  text-align-last: center;
+  margin: 30px;
+  font-size: 2.125rem;
+}
+.parag{
+  display: flex;
+  justify-content: space-around;
+  
+  
+
+}
+.pr{
+  margin: .8em 0;
+  line-height: 1.75;
+  
+  width: 35%;
+  color: #ABABAB;
+  
+}
+
+
+.der{
+  width: 120%;
+  margin-left: 50%;
+  
+}
+.global{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.we-are{
+  width: 15%;
+  color: #00CCB1;
+  margin-top: 0px;
+  font-size: x-large;
+  
+}
+.login{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 1.625em;
+  fill:#ABABAB;
+  
+}
+.lo:hover{
+  fill:#00BFA5;
+}
+
+.sou-nav{
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+li:hover .sou-nav{
+  display: block;
+  padding: 0px;
+  position: absolute;
+  margin-top: -30px;
+  margin-right: 60px;
+  padding: 20px;
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.9;
+  
+}
+.sou-nav li:hover{
+  background-color: #F6F8F8;
+  color: #00C3A5;
+}
+.for{
+  
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 80px;
+  
+}
+.pat{
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+.pt{
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+}
+.tot{
+  border: solid;
+  border-radius: 20px;
+  width: 30%;
+  height: 350px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #00CCB1;
   color: white;
+  margin: 10px;
+ overflow: hidden;
+}
+.tota{
+  border: solid;
+  border-radius: 20px;
+  width: 65%;
+  height: 350px;
+  margin-top: 30px;
+  padding: 20px;
+  background-color:#3D83DF;
+  color: white;
+  margin: 10px;
+  overflow: hidden;
+  
+}
+.alkmar{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  fill:#ABABAB ;
 }
 
-.App-link {
-  color: #61dafb;
+.wear{
+  width: 20%;
+  font-size:x-large;
+  color: #06C3A7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.zka{
+  display: flex;
+  justify-content: space-around;
+  margin: 90px;
+}
+.cart{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 65%;
+  margin: 40px;
+  padding-right: 190px;
+  
+  
+}
+.ico{
+  
+  margin-left: 40%;
+  
+  
+}
+.icor{
+  
+  font-size:large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #00BFA5;
+  
+}
+.icon{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 30px;
+
+  
+}
+.jam{
+  display: flex;
+  
+  background-color:#DFF8F6 ;
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jams{
+  
+  margin-left: 150px;
+  width: 70%;
+  margin-top: 20px;
+  color: #ABABAB;
+  
+  text-align: center;
+  font-size: large;
+  
+ 
+}
+
+
+
+
+
+.jamp{
+  
+  text-align: center;
+  width: 70%;
+  margin-left: 150px;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #00BFA5;
+ 
+  height: 20%;
+  margin-bottom: -20px;
+  
+  
+}
+
+
+
+.crt{
+  
+  border-radius: 10px;
+    width: 220px;
+    height: 250px;
+    margin: 10px;
+    background-color: white;
+  
+  
+}
+.imp{
+  text-align: center;
+  color: #00BFA5;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 60px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.impr{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ABABAB;
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.pays{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+  
+}
+.barc{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn{
+  border: solid;
+  border-radius: 7px;
+  color: white;
+  background-color: rgb(0, 153, 255);
+  height: 35px;
+  
+}
+.btn:hover{
+  background-color: rgb(0, 17, 255);
+}
+.pas{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ABABAB;
+  
+}
+.pams:hover{
+  box-shadow:0px 5px 5px 8px grey
+}
+.foo{
+  text-align: center;
+  margin: 20px;
+  color: #ABABAB;
+  
+}
+.foot{
+  margin-top: 160px;
+}
+.Gol{
+ width: 55%;
+}
+.img-doc{
+  width: 90%;
+  margin-left: 40%;
+}
+.img-pat{
+  width: 75%;
+  margin-left: 50%;
 }
